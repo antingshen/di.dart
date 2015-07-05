@@ -1,4 +1,6 @@
-[![Build Status](https://drone.io/github.com/angular/di.dart/status.png)](https://drone.io/github.com/angular/di.dart/latest)
+## Note
+This is a read-only copy of the DI library now over at [Angular](https://github.com/angular/di.dart).  
+For my 2.0 overhaul, see [commit 10e471](https://github.com/antingshen/di.dart/commit/10e471b0ea2e4392d436cfa555f6c613fc4a7043).
 
 # Dependency Injection (DI) framework
 
@@ -77,7 +79,3 @@ void main() {
   injector.get(ElectricCar).drive(); // Hum...
 }
 ```
-
-## Contributing
-
-Refer to the guidelines for [contributing to AngularDart](http://goo.gl/nrXVgm).
